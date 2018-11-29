@@ -32,8 +32,13 @@ body {
 
 .contenido {
    text-align: center;
+   background-color: white;
+   padding: 1.2rem;
 }
 
+.entrada {
+   margin-bottom: 1rem;
+}
 .entrada img {
    max-width: 100%;
 }
