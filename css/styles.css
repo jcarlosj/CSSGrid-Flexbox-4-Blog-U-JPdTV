@@ -34,6 +34,10 @@ body {
    text-align: center;
    background-color: white;
    padding: 1.2rem;
+   text-transform: uppercase;
+}
+.contenido span {
+   color: #DB008D;
 }
 
 .entrada {
@@ -50,5 +54,4 @@ body {
 .entrada .contenido h3 {
    font-size: .9rem;
    line-height: 1.4rem;
-   text-transform: uppercase;
 }
