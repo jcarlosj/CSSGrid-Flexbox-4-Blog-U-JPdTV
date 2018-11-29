@@ -26,8 +26,24 @@ body {
 
 .contenido-principal h2 {
    flex: 0 1 100%;
+   font-size: 1.8rem;
+   text-align: center;
 }
 
-article img {
+.contenido {
+   text-align: center;
+}
+
+.entrada img {
    max-width: 100%;
+}
+.entrada h3 {
+   font-family: 'Libre Baskerville', serif;
+   font-weight: 700;
+   margin: 0;
+}
+.entrada .contenido h3 {
+   font-size: .9rem;
+   line-height: 1.4rem;
+   text-transform: uppercase;
 }
