@@ -8,10 +8,22 @@ body {
    max-width: 1100px;
 }
 
-.contenido-principal {
-   display: flex;
-   flex-wrap: wrap;
+@media screen and ( min-width: 480px ) {
+   .contenido-principal {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   .entrada {
+      flex: 0 1 calc( 50% - 1rem );    /* En Flexbox los anchos se aplican con la propiedad 'flex-basis' que equivale a: 'width' */
+   }
 }
+@media screen and ( min-width: 768px ) {
+   .entrada {
+      flex: 0 1 calc( 33% - 1rem );    /* En Flexbox los anchos se aplican con la propiedad 'flex-basis' que equivale a: 'width' */
+   }
+}
+
 .contenido-principal h2 {
    flex: 0 1 100%;
 }
