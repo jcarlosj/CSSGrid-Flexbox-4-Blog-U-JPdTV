@@ -30,6 +30,30 @@ body {
    text-align: center;
 }
 
+/* Page Header */
+.hero {
+   background-attachment: fixed;
+   background-image: url( '../img/hero.jpg' );
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+}
+.header-bar {
+   background-color: #008FD1;
+   padding: 1rem 0;
+   position: absolute;
+   top: 1rem;
+   width: 100%;
+}
+
+/* Page Content */
 .contenido {
    background-color: white;
    padding: 1.2rem;
