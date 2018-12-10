@@ -184,3 +184,68 @@ body {
       flex: 1;
    }
 }
+
+/* Footer */
+.footer {
+   background-color: #008FD1;
+   color: white;
+   padding-top: 1rem;
+}
+.footer h2 {
+   text-align: center;
+   text-transform: uppercase;
+}
+@media screen and ( min-width: 768px ) {
+   .footer .contenedor {
+      display: flex;
+   }
+   .footer .box {
+      flex: 1;
+   }
+}
+
+.social ul {
+   display: flex;
+   flex: 1 0 auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   list-style: none;
+}
+.social ul li {
+   margin-right: 1rem;
+}
+.social ul li a {
+   text-decoration: none;
+}
+.social ul li a:before {
+   color: white;
+   font-family: 'Font Awesome 5 Brands';
+   font-size: 2rem;
+
+}
+.social ul li a[href*='facebook.com']::before {
+   content: '\f39e';
+}
+.social ul li a[href*='twitter.com']::before {
+   content: '\f099';
+}
+.social ul li a[href*='youtube.com']::before {
+   content: '\f431';
+}
+.social ul li a[href*='instagram.com']::before {
+   content: '\f16d';
+}
+.social ul li a[href*='pinterest.com']::before {
+   content: '\f231';
+}
+.social ul li span {
+   display: none;
+}
+
+.copyright {
+   background-color: #004D70;
+   color: white;
+   margin: 2rem 0 0 0;
+   padding: 1rem 0;
+   text-align: center;
+}
